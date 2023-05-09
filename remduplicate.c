@@ -21,16 +21,18 @@ int main(){
             }
         }
     }
-    /*for(i=0; i<size; i++){
-        for(j=i+1; j<size; j++){
-            if(arr[i]!=arr[j]){
-
-            }
-        }
-    }*/
+    
     printf("After removing the duplicate elements the array is: ");
     for(i=0; i<size; i++){
         printf("%d ", arr[i]);
     }
 return 0;
 }
+
+/*for(i=0; i<size; i++){
+        for(j=i+1; j<size; j++){
+            if(arr[i]!=arr[j]){
+
+            }
+        }
+    }*/
