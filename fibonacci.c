@@ -7,7 +7,7 @@
     printf("Enter a number to print the fibonacci series: ");
     scanf("%d", &num);
     printf("%d %d", first, second);
-    for(int i=1; i<=num; i++){
+    for(int i=1; i<num; i++){
         next = first+second;
         first=second;
         second=next;
